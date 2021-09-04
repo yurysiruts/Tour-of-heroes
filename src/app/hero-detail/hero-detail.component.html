@@ -5,10 +5,8 @@
   </div>
   <div>
     <label for="hero-name">Hero name: </label>
-    <!-- <input type="text" id="hero-name" [(ngModel)]="hero.name" placeholder="name"> -->
-    <span id="hero-name">{{ hero.name }}</span>
+    <input type="text" id="hero-name" [(ngModel)]="hero.name" placeholder="name">
   </div>
   <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
-  <button (click)="edit()" class="caution">edit</button>
+  <button (click)="save()" class="save">save</button>
 </div>

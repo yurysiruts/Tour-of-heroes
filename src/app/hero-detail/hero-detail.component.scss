@@ -24,6 +24,10 @@ button:disabled {
   cursor: auto;
 }
 
-.caution {
-  background-color: rgb(255,250,200);
+button.save:hover {
+  color: rgb(133, 255, 52);
+  background-color: #cfd8dc;
+}
+.save {
+  background-color: rgb(196, 255, 157);
 }
